@@ -12,7 +12,7 @@ public class ThisKeyword {
 	
 	System.out.println(this.i);
 	
-	System.out.println(this.j);
+	System.out.println(j);
 	System.out.println(i);
 		
 	}

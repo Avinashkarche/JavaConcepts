@@ -1,32 +1,33 @@
 package constructorsInJava;
 
 public class ParameterizedConstructor {
-	String studentname;
-	static String collegename = "coep";
+
+	String name;
+	int age;
 	double percentage;
-	int age; 
-	static String collegecity = "Pune";
+	String grade;
 	
-	
-	
-	public ParameterizedConstructor(String sname, double pcent, int age )
+	 
+	public ParameterizedConstructor(String name, int age,double percentage, String studentgrade)
 	{
-		studentname = sname;
-		percentage = pcent;
-		this.age = age;
+		this.name=name;
+		this.age=age;
+		this.percentage=percentage;
+		grade=studentgrade;
 		
 	}
 	
+	
+	
+	
 	public static void main(String[] args) {
 		
-		ParameterizedConstructor s1 = new ParameterizedConstructor("Eder", 40, 12);
-		 
-		ParameterizedConstructor s2 = new ParameterizedConstructor("Ron", 80, 13);
-		 
-		ParameterizedConstructor s3 = new ParameterizedConstructor("Diana", 60, 14);
-		 
-		 System.out.println(s2.studentname);
-		 
+		ParameterizedConstructor p = new ParameterizedConstructor("Avinash",26,85.20,"A+");
+		System.out.println(p.name+"  " + p.age+" "+p.percentage+" "+p.grade);
+		
+		
+		
+		
+	}
 
-}
 }

@@ -6,13 +6,11 @@ public class ZeroArgumentConstructor {
 	static int a;
 	static String name;
 
-	//constructor 
-		public ZeroArgumentConstructor()
-	{
+	// constructor
+	public ZeroArgumentConstructor() {
 
-		// initlition
+		// initiation
 		a = 20;
-
 		name = "Ganesh";
 
 		// usage
@@ -26,6 +24,8 @@ public class ZeroArgumentConstructor {
 
 	{
 
-		ZeroArgumentConstructor xvz=new ZeroArgumentConstructor();
-}
+		ZeroArgumentConstructor xvz = new ZeroArgumentConstructor();
+
+		// System.out.println(xvz.a+" "+xvz.name);
+	}
 }

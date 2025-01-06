@@ -8,25 +8,22 @@ public class DoWhileLoop {
 //			Actions
 //		}
 //		while(boolean_condition);
-		
-		
-		
-		
-		int i = 50;
-		
-		int j = 20;
-		
-		
-		do
-		{
+//
+		int j = 5;
+
+		do {
 			System.out.println("Wednesday");
+			j++;
+		} while (j < 10);
+
+		for (
+
+				int i = 1; i <= 5; i++) {
+			if (i == 3) {
+				continue;
+
+			}
+			System.out.println(i);
 		}
-		while(j>i);
-		
-		
-		
-		
 	}
-
-
 }
