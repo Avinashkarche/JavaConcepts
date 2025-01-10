@@ -1,6 +1,6 @@
 package wrapperclassandcasting;
 
-public class Test {
+public class WrapperClassConcept {
 	public static void main(String[] args) {
 
 		// Conversion of Primitive data type into non primitive:
